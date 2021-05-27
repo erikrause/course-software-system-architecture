@@ -4,9 +4,6 @@ using System.Text;
 
 namespace Adapter.Models.Adaptee
 {
-    /// <summary>
-    /// Класс для хранения данных о самолете в метрической системе (CИ).
-    /// </summary>
     public class InternalAirFlight
     {
         public InternalAirFlight()
