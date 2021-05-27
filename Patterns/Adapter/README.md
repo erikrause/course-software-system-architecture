@@ -6,6 +6,6 @@
 
 ## Классы
 
-- **Target:**: [AirFlight](https://github.com/erikrause/course-software-system-architecture/blob/master/Patterns/Adapter/Models/Target/AirFlight.cs) - класс для представления международного маршрута полёта.
+- **Target**: [AirFlight](https://github.com/erikrause/course-software-system-architecture/blob/master/Patterns/Adapter/Models/Target/AirFlight.cs) - класс для представления международного маршрута полёта.
 - **Adaptee**: [InternalAirFlight](https://github.com/erikrause/course-software-system-architecture/blob/master/Patterns/Adapter/Models/Adaptee/InternalAirFlight.cs) - класс для внутренних перелетов по России.
 -  **Adapter**: [InternalAirFlightAdaper](https://github.com/erikrause/course-software-system-architecture/blob/master/Patterns/Adapter/Adapter/InternalAirFlightAdapter.cs) - класс для адаптации внутренних перелётов на международные.
