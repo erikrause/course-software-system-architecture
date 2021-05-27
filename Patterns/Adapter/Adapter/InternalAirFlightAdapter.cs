@@ -6,10 +6,10 @@ using System.Text;
 
 namespace Adapter.Adapter
 {
-    public class AirFlightAdapter : AirFlight
+    public class InternalAirFlightAdapter : AirFlight
     {
         protected InternalAirFlight _internalAirFlight;
-        public AirFlightAdapter(InternalAirFlight internalAirFlight)
+        public InternalAirFlightAdapter(InternalAirFlight internalAirFlight)
         {
             _internalAirFlight = internalAirFlight;
         }
