@@ -13,6 +13,7 @@ namespace Adapter.Adapter
         {
             _internalAirFlight = internalAirFlight;
         }
-        public new string DestinationCountry { get => _internalAirFlight.Country; } // переопределяем методы доступа для свойства.
+        public new string DestinationCountry { get => _internalAirFlight.Country; }
+        public new string SourceCountry { get => _internalAirFlight.Country; }
     }
 }
